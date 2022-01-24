@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+
+
+
+	<div class="container">
+		<div class="row justify-content-center my-5">
+			<div class="col-md-6">
+				<button class="btn btn-primary" id="add_product">Add new prduct</button>
+				<br>
+				<br>
+				<div class="card product-add-box">
+					<div class="card-body">
+						<button id="non" class="close">&times;</button>
+						<h2>Add new product</h2>
+						<hr>
+						<form id="product">
+							<div class="form-group">
+								<input name="namee" type="text" class="form-control" placeholder="Product Name">
+							</div>
+							<div class="form-group">
+								<input name="price" type="text" class="form-control" placeholder="Product Price">
+							</div>
+							<div class="form-group">
+								<input name="sale_price" type="text" class="form-control" placeholder="Sale Price">
+							</div>
+							<div class="form-group">
+								<input name="photoo" type="text" class="form-control" placeholder="Product Photo link">
+							</div>
+							<div class="form-group">
+								<input type="submit" class="btn btn-primary " value="Add new Product">
+							</div>
+						</form>
+					</div>
+				</div>
+				<hr>				
+			</div>
+		</div>
+		<div class="products">
+			<div id="plist" class="row">	
+			</div>
+		</div>
+	</div>
+
+
+
+  <div class="container my-5">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card">
+					<div class="card-body">
+						<h2>Add Devs</h2>
+						<hr>
+						<form id="devs_form">
+							<div class="form-group">
+								<label for="">Name</label>
+								<input class="form-control" name="name" type="text" placeholder="Name">
+							</div>
+							<div class="form-group">
+								<br>
+								skills
+								<hr>
+								<input name="skill" type="checkbox" value="JS Developer" id="JS"> <label for="JS">JS Developer</label> 
+                                <br>
+								<input name="skill" type="checkbox" value="PHP Developer" id="PHP"> <label for="PHP">PHP Developer</label> 
+                                <br>
+								<input name="skill" type="checkbox" value="IOS Developer" id="IOS"> <label for="IOS">IOS Developer</label> 
+                                <br>
+								<input name="skill" type="checkbox" value="Python Developer" id="Python"> <label for="Python">Python Developer</label> 
+                                <br>
+							</div>
+							<div class="form-group">
+								<br>
+								gender
+								<hr>
+								<input name="gender" type="radio" value="Male" id="Male"> <label for="Male">Male</label> 
+                                <br>
+								<input name="gender" type="radio" value="Female" id="Female"> <label for="Female">Female</label> 
+                                <br>
+
+							</div>
+							<div class="form-group">
+								<label for="">Photo</label>
+								<input class="form-control" name="photo" type="text" placeholder="Photo">
+							</div>
+							<div class="form-group">
+								<br>
+								<input class="btn btn-primary btn-block" type="submit" value="Add new devs">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-9">
+
+				<div class="row devs-area">
+
+
+
+
+					
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+ 
+  <!-- Fiverr counter -->
+
+
+
+  <div class="fiverr-wraper">
+	<div class="card-header">
+		<h2 class="card-title">Fiverr counter </h2>
+	</div>
+
+	<div class="card">
+	   <div class="card-body">
+		   <form id="fiver_order" class="form-inline">
+			   <div class="form-group">
+
+				<input class="form-control mr-2" type="date">
+
+			   </div>
+			   <div class="form-group">
+
+				<input class="form-control mr-2" type="time">
+
+			   </div>
+			   <div class="form-group">
+
+				<input class =" btn btn-success" type="submit" value="create an order">
+
+			   </div>
+		   </form>
+	   </div> 
+	</div>
+	<hr>
+	<div class="counter">
+		
+	</div>
+</div>
+
+
+
+<!-- age check -->
+
+
+<div class="age_counter ">
+<div class="card-header">
+	<h2 class="card-title">age check </h2>
+</div>
+
+
+  <div class="card">
+	 <div class="card-body">
+		 <form id="age_counter" >
+			 <div class="form-group">
+
+			  <input class="form-control mr-2" type="date">
+
+			 </div>
+			 <div class="form-group">
+
+			  <input class="form-control mr-2" type="time">
+
+			 </div>
+			 <div class="form-group">
+
+			  <input class =" btn btn-success" type="submit" value="create an order">
+
+			 </div>
+		 </form>
+	 </div> 
+  </div>
+  <hr>
+  <div class="counterr">
+	  
+ 
+  
+</div>
+
+</div>
+<br>
+<br>
+<br>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <script src="./function.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
